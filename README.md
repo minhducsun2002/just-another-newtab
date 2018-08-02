@@ -1,9 +1,12 @@
 # less-sucks newtab
 
-Google Chrome's newtab is annoying because it shows most-visited pages and other intrusive info. I make it less sucks. Feel free to use it.
+Just another new tab page for Chromium-based browsers.
 
-Credit goes to: https://superuser.com/a/805668/691257
-I just make this for my own convenience.
+Cloned from (and based on) [`minhducsun2002/less-sucks-newtab`](https://github.com/minhducsun2002/less-sucks-newtab),
+which I forked from
+[`ducphanduyagentp/less-sucks-newtab/`](https://github.com/ducphanduyagentp/less-sucks-newtab).
+
+Credit to [`ducphanduyagentp`](https://github.com/ducphanduyagentp).
 
 ## Installation
 - `git clone` this repository.
