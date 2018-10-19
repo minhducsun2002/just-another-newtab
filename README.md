@@ -2,6 +2,8 @@
 
 Just another new tab page for Chromium-based browsers.
 
+Experimental support for Firefox.
+
 Cloned from (and based on) [`minhducsun2002/less-sucks-newtab`](https://github.com/minhducsun2002/less-sucks-newtab),
 which I forked from
 [`ducphanduyagentp/less-sucks-newtab/`](https://github.com/ducphanduyagentp/less-sucks-newtab).
