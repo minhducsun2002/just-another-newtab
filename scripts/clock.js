@@ -14,19 +14,21 @@ function launchClockUpdater()
 
 function updateClock()
 {
-	let clock = document.getElementById('clock');
-	let now = new Date(Date.now());
-	let hour = ('0' + now.getHours()).slice(-2);
-	let minute = ('0' + now.getMinutes()).slice(-2);
-	let second = ('0' + now.getSeconds()).slice(-2);
-	clock.innerHTML = hour + ':' + minute + ':' + second;
-	clock.style.fontSize = "80px";
-	clock.style.fontFamily = "Montserrat";
+	getObject('#clock-h').innerText = padClock(moment().hours());
+	getObject('#clock-m').innerText = padClock(moment().minutes());
+	getObject('#clock-s').innerText = padClock(moment().seconds());
+}
+
+function padClock(arg)
+{
+	return (arg < 10) ? "0" + arg : arg;
 }
 
 function updateDate()
 {
 	let date = document.getElementById('date');
+	// reset font style
+
 	let now = new Date(Date.now());
 	date.innerHTML =	weekday[now.getDay()] + ', ' +
 						month[now.getMonth()] + ' ' + 

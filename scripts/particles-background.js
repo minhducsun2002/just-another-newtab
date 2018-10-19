@@ -1,0 +1,1 @@
+particlesJS.load("particles-js", "external-config/particlesjs-config.json", () => {})

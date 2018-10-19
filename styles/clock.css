@@ -1,0 +1,31 @@
+#date {
+	display: inline-block;
+	font-family: 'Montserrat', monospace;
+    font-size: 15px;
+    color: yellow;
+    font-weight: bold;
+	box-sizing: border-box;
+	margin-right: 3px;
+}
+
+#clock-container {
+    margin-top: 5px;
+	margin-right: 3px;
+}
+
+#hms-container > div {
+	display: inline-block;
+}
+
+#clock-h, #clock-m {
+	font-size: 25px;
+	padding: 1px;
+    padding-left: 5px;
+    padding-right: 3px;
+}
+
+#clock-s {
+	font-size: 20px;
+	padding-right: 3px;
+	padding-left:  3px;
+}

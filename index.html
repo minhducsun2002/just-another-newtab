@@ -3,24 +3,38 @@
         <meta charset="utf-8">
         <title>New Tab</title>
         <link href="styles/styles.css" rel="stylesheet" type="text/css">
+        <link href="styles/clock.css" rel="stylesheet" type="text/css">
+
+        <!-- Moment.js -->
+        <script type="text/javascript" src="external/momentjs/moment-with-locales.min.js"></script>
+        <script type="text/javascript" src="external/momentjs/moment-timezone-with-data.min.js"></script>
+
+        <!-- Materialize CSS -->
+        <script type="text/javascript" src="external/materialize/js/materialize.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="external/materialize/css/materialize.min.css">
+
         <!-- importing external fonts from Google Font -->
         <link href="https://fonts.googleapis.com/css?family=Open+Sans">
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
         <script type="text/javascript" src="scripts/clock.js"></script>
-        <!-- update clock -->
+        <script type="text/javascript" src="scripts/utilities.js"></script>
 
+        <script type="text/javascript" src="external/particles.js/particles.min.js" defer></script>
+        <script type="text/javascript" src="scripts/particles-background.js" defer></script>
+        <!-- particles.js -->
     </head>
-    <body id="root">
-        <div id="clock_container" align="center">
-            <div is_space>&nbsp;</div>
-            <div id="clock">
-                Getting time...
+    <body>
+        <div id="particles-js"></div>
+        <div id="root">
+            <div id="clock-container" align="right">
+                <div id="date"></div>
+                <div id="hms-container">
+                    <div id="clock-h" class="card black-text blue-grey lighten-5 pulse"></div>
+                    <div id="clock-m" class="card black-text blue-grey lighten-5 pulse"></div>
+                    <sup id="clock-s" class="card cyan-text text-accent-2 indigo darken-4 pulse"></sup>
+                </div>
             </div>
-            <br>
-            <p id="date">
-                Getting date...
-            </p>
         </div>
     </body>
 </html>

@@ -1,43 +1,24 @@
 html {
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
-    background-color: #26A69A;
+    background-color: black;
     color: yellow;
 }
 
-body, html {
+#root {
+	width: 100%;
 	height: 100%;
-	margin: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 100;
 }
 
-body {
-	background-image: url("../image/background-user.jpg");
-	background-position: center center;
-	background-repeat:  no-repeat;
-	background-attachment: fixed;
-	background-size:  cover;
-}
-
-#clock {
-	background-color:rgba(0, 0, 0, 0.2);
-	display: inline;
-	font-size: 60px;
-	border-style: solid;
-	border-color: #E91E63;
-	border-radius: 8px;
-	margin-top: 15px;
-	padding: 5px 5% 5px 5%;
-	/*margin-top: 10px;*/
-	box-sizing: border-box;
-}
-
-#date {
-	display: inline-block;
-	font-size: 50px;
-	border-style: solid;
-	border-color: #E91E63;
-	border-radius: 8px;
-	padding: 5px 5% 5px 5%;
-	box-sizing: border-box;
-	margin: 5px;
+#particles-js {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -100;
 }
