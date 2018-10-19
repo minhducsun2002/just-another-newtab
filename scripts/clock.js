@@ -27,7 +27,6 @@ function padClock(arg)
 function updateDate()
 {
 	let date = document.getElementById('date');
-	// reset font style
 
 	let now = new Date(Date.now());
 	date.innerHTML =	weekday[now.getDay()] + ', ' +
