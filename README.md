@@ -1,4 +1,4 @@
-# less-sucks newtab
+# `just-another-new-tab`
 
 Just another new tab page for Chromium-based browsers.
 
