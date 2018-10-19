@@ -5,5 +5,5 @@
     "description": "Another attempt to make a new new-tab page for Chromium-based browsers",
     "chrome_url_overrides": {
         "newtab": "index.html"
-    },
+    }
 }
