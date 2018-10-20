@@ -2,7 +2,8 @@ html {
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
     background-color: black;
-    color: yellow;
+	color: yellow;
+	overflow: hidden;
 }
 
 #root {
