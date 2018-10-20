@@ -22,6 +22,8 @@ to make it work properly with Firefox. Still, I test it in Chromium.
   - Choose "Load temporary Add-on...", then choose the `manifest.json` inside the repository.
   - Open a new tab and enjoy.
 
+## Screenshot(s)
+![Screenshot 1](examples/Screenshot_2018-10-20_21-57-33.png)
 
 ## Licensing
 ### The extension itself
