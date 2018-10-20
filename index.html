@@ -4,6 +4,7 @@
         <title>New Tab</title>
         <link href="styles/styles.css" rel="stylesheet" type="text/css">
         <link href="styles/clock.css" rel="stylesheet" type="text/css">
+        <link href="styles/greeting.css" rel="stylesheet" type="text/css">
 
         <!-- Moment.js -->
         <script type="text/javascript" src="external/momentjs/moment-with-locales.min.js"></script>
@@ -17,8 +18,9 @@
         <link href="https://fonts.googleapis.com/css?family=Open+Sans">
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
-        <script type="text/javascript" src="scripts/clock.js"></script>
         <script type="text/javascript" src="scripts/utilities.js"></script>
+        <script type="text/javascript" src="scripts/clock.js" defer></script>
+        <script type="text/javascript" src="scripts/greetings.js" defer></script>
 
         <script type="text/javascript" src="external/particles.js/particles.min.js" defer></script>
         <script type="text/javascript" src="scripts/particles-background.js" defer></script>
@@ -34,6 +36,9 @@
                     <div id="clock-m" class="card black-text blue-grey lighten-5 pulse"></div>
                     <sup id="clock-s" class="card cyan-text text-accent-2 indigo darken-4 pulse"></sup>
                 </div>
+            </div>
+            <div id="greeting" style="color: white;" align="center">
+                Welcome
             </div>
         </div>
     </body>
