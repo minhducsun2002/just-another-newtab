@@ -37,5 +37,5 @@ function updateGreeting()
 
 function writeGreeting()
 {
-    getObject('#greeting').innerText = greeting[moment().hours()];
+    getObject('#greeting').innerText = greeting[moment().hours()] + (name ? `, ${name}` : '');
 }
