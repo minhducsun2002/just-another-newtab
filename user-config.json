@@ -1,3 +1,6 @@
-{
-    "name" : ""
-}
+[
+    {
+        "name" : "",
+        "openweathermap_key" : ""
+    }
+]

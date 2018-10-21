@@ -1,15 +1,15 @@
-var name = '';
-var request = new XMLHttpRequest();
+var config;
+var config_request = new XMLHttpRequest();
+var name;
 
-loadName('user-config.json');
+if (name) writeGreetings(name);
+loadConfig('user-config.json');
 
-function loadName(json_path)
+function loadConfig(json_path)
 {
-    let requestURL = json_path;
-    request.open('GET', json_path);
-    request.send();
-    request.onload = () => {
-        name = JSON.parse(request.responseText)["name"];
-        writeGreeting();
+    config_request.open('GET', json_path);
+    config_request.onload = () => {
+        config = Object.assign({}, config, JSON.parse(config_request.responseText))[0];
     }
+    config_request.send();
 }
