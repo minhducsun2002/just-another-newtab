@@ -1,8 +1,8 @@
 {
     "manifest_version": 2,
-    "name": "Just another new tab page",
+    "name": "Simplicity",
     "version": "0.0.1",
-    "description": "Another attempt to make a new new-tab page for Chromium-based browsers",
+    "description": "It's just another customization option for New Tab pages.",
     "chrome_url_overrides": {
         "newtab": "index.html"
     }
