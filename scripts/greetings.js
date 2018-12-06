@@ -38,4 +38,13 @@ function updateGreeting()
 function writeGreeting()
 {
     getObject('#greeting').innerText = greeting[moment().hours()] + (name ? `, ${name}` : '');
+    if (minute() <= 360 || minute() >= 1000)
+        getObject('#greeting').style.color = 'white';
+    else
+        getObject('#greeting').style.color = '#004D40';
+}
+
+function minute() {
+    let globalTime = new Date();
+    return globalTime.getHours() * 60 + globalTime.getMinutes();
 }

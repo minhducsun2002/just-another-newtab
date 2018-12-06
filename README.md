@@ -39,4 +39,3 @@ Each external library found in [`external/`](external/) comes with its own licen
 a copy preseved at the time it was downloaded.
 - [MaterializeCSS](external/materialize/README.md), version `1.0.0-rc2`, comes with [MIT license](external/materialize/LICENSE)
 - `moment.js`, version `2.22.2`, comes with [MIT license](external/materialize/LICENSE)
-- `particles.js`, version `2.0.0`, comes with [MIT license](external/materialize/LICENSE)
