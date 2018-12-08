@@ -23,7 +23,7 @@ to make it work properly with Firefox. Still, I test it in Chromium.
   - Open a new tab and enjoy.
 
 ## Screenshot(s)
-![Screenshot 1](examples/Screenshot_2018-10-20_21-57-33.png)
+![Screenshot 1](examples/Screenshot_2018-12-08_18-21-36.png)
 
 ## Licensing
 ### The extension itself
