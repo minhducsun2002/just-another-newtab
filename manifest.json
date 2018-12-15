@@ -5,5 +5,6 @@
     "description": "It's just another customization option for New Tab pages.",
     "chrome_url_overrides": {
         "newtab": "index.html"
-    }
+    },
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
 }

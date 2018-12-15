@@ -1,0 +1,9 @@
+#weather-sidebar-trigger {
+    margin-top: 1%;
+    margin-left: 1%;
+    display: inline-block;
+}
+
+#clock-container {
+    float: right;
+}

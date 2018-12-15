@@ -1,3 +1,5 @@
 #greeting {
+    float: right;
     font-size: 26px;
+    width: 100%;
 }

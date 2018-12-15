@@ -5,6 +5,7 @@
         <link href="styles/styles.css" rel="stylesheet" type="text/css">
         <link href="styles/clock.css" rel="stylesheet" type="text/css">
         <link href="styles/greeting.css" rel="stylesheet" type="text/css">
+        <link href="styles/top-bar.css" rel="stylesheet" type="text/css">
 
         <!-- Moment.js -->
         <script type="text/javascript" src="external/momentjs/moment-with-locales.min.js"></script>
@@ -13,6 +14,9 @@
         <!-- Materialize CSS -->
         <script type="text/javascript" src="external/materialize/js/materialize.min.js"></script>
         <link rel="stylesheet" type="text/css" href="external/materialize/css/materialize.min.css">
+
+        <!-- Material Icons -->
+        <link rel="stylesheet" type="text/css" href="external/material-icons/material-icons.css">
 
         <!-- importing external fonts from Google Font -->
         <link href="https://fonts.googleapis.com/css?family=Open+Sans">
@@ -30,23 +34,27 @@
     <body>
         <iframe src="external/grass-field-html/index.html"
         style="z-index:-999;position:absolute;border:0;top:0;left: 0;width:100%;height:100%;"></iframe>
+        <ul id="weather-container" class="sidenav">
+            
+        </ul>
         <div id="root">
-            <div id="clock-container" align="right">
-                <div id="date"></div>
-                <div id="hms-container">
-                    <div id="clock-h" class="card black-text blue-grey lighten-5 pulse"></div>
-                    <div id="clock-m" class="card black-text blue-grey lighten-5 pulse"></div>
-                    <sup id="clock-s" class="card cyan-text text-accent-2 indigo darken-4 pulse"></sup>
+            <div id="top-bar">
+                <div id="weather-sidebar-trigger"
+                    class="waves-effect waves-light btn-small black"
+                    data-target="slide-out" class="sidenav-trigger">
+                    <i class="material-icons">cloud</i>
                 </div>
-            </div>
-            <div id="greeting" style="color: white;" align="center"></div>
-            <div id="applet-container">
-                <div id="weather-container" align="center">
-                    <div id="place">
-                        <span id="city"></span><span id="country"></span>
+                <div id="clock-container" align="right">
+                    <div id="date"></div>
+                    <div id="hms-container">
+                        <div id="clock-h" class="card black-text blue-grey lighten-5 pulse"></div>
+                        <div id="clock-m" class="card black-text blue-grey lighten-5 pulse"></div>
+                        <sup id="clock-s" class="card cyan-text text-accent-2 indigo darken-4 pulse"></sup>
                     </div>
                 </div>
             </div>
+            <div id="greeting" style="color: white;" align="center"></div>
         </div>
+        <script src="scripts/init.js" defer></script>
     </body>
 </html>
