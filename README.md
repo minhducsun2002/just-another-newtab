@@ -35,7 +35,9 @@ You should have received a copy of the license along with this
 work. If not, see <http://creativecommons.org/licenses/by/4.0/>.
 
 ### External libraries
-Each external library found in [`external/`](external/) comes with its own license, which has
+Each external library, icon pack,... found in [`external/`](external/) comes with its own license, which has
 a copy preseved at the time it was downloaded.
 - [MaterializeCSS](external/materialize/README.md), version `1.0.0-rc2`, comes with [MIT license](external/materialize/LICENSE)
-- `moment.js`, version `2.22.2`, comes with [MIT license](external/materialize/LICENSE)
+- [`moment.js`](http://momentjs.com), version `2.22.2`, comes with [MIT license](external/materialize/LICENSE)
+- [`grass-field-html`](https://github.com/minhducsun2002/grass-field-html), comes with [Creative Commons Attribution 4.0 International License](https://github.com/minhducsun2002/grass-field-html/blob/master/LICENSE).
+- [`material-design-icons`](https://github.com/google/material-design-icons), comes with [Apache License 2.0](external/material-icons/LICENSE).
