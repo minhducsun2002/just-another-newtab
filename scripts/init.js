@@ -15,5 +15,14 @@ if ('serviceWorker' in navigator) {
 
 // initialize Materialize sidenav
 document.addEventListener('DOMContentLoaded', () => {
-    M.Sidenav.init(document.querySelectorAll('.sidenav'));
+    M.Sidenav.init(document.querySelectorAll('.sidenav'), {
+        // hide the trigger button when the sidebar is opened
+        onOpenStart : () => {
+            document.querySelector('#weather-sidebar-trigger').style.display = 'none';
+        },
+        // and re-appear once the sidebar gets fully closed.
+        onCloseEnd : () => {
+            document.querySelector('#weather-sidebar-trigger').style.display = '';
+        }
+    });
 })

@@ -2,6 +2,7 @@
     margin-top: 1%;
     margin-left: 1%;
     display: inline-block;
+    transition-duration: 0.5s;
 }
 
 #clock-container {
