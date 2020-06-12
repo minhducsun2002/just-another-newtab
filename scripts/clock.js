@@ -28,8 +28,8 @@ function updateDate()
 {
 	let date = document.getElementById('date');
 
-	let now = new Date(Date.now());
-	date.innerHTML =	weekday[now.getDay()] + ', ' +
+	let now = new Date();
+	date.innerHTML =	weekday[now.getDay()] + ' - ' +
 						month[now.getMonth()] + ' ' + 
-						now.getDate() + ' ' + now.getFullYear();
+						now.getDate() + ', ' + now.getFullYear();
 }
