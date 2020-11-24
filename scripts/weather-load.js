@@ -8,9 +8,10 @@ var coord = {
 
 const API_KEY = ''
 
-var update = fetch(`https://api.darksky.net/forecast/${API_KEY}/${coord["latitude"]},${coord["longitude"]}`).then((response) => {
+/* var update = fetch(`https://api.darksky.net/forecast/${API_KEY}/${coord["latitude"]},${coord["longitude"]}`).then((response) => {
     return response.json();
 }).then((data) => {
     // renderWeatherData(data)
     console.log(data);
 })
+*/
